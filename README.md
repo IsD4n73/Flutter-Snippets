@@ -13,3 +13,11 @@ Flutter snippets and component
 | ------------- |
 | ![Img](https://raw.githubusercontent.com/IsD4n73/flutter-snippets/main/Screen/Screenshot_1668970597.png) |
 | [Source](https://github.com/IsD4n73/flutter-snippets/blob/main/Source/doc_button.dart) |
+
+
+
+
+| Button + Icon | 
+| ------------- |
+| ![Img](https://raw.githubusercontent.com/IsD4n73/flutter-snippets/main/Screen/Screenshot_1668972294.png) |
+| [Source](https://github.com/IsD4n73/flutter-snippets/blob/main/Source/button_icon.dart) |
