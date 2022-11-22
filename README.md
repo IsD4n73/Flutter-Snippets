@@ -30,4 +30,4 @@ Flutter snippets and component
 
 
 ## Logic Snippets
- - [Check Codice Fiscale]()
+ - [Check Codice Fiscale](https://github.com/IsD4n73/Flutter-Snippets/blob/main/Logic/check_cf.dart)
