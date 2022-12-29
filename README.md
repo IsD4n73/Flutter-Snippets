@@ -28,10 +28,16 @@ Flutter snippets and component
 | [Source](https://github.com/IsD4n73/Flutter-Snippets/blob/main/Source/textfield_icon.dart) |
 
 
-| Search Bar| 
+| Search Bar | 
 | ------------- |
 | ![Img](https://raw.githubusercontent.com/IsD4n73/Flutter-Snippets/main/Screen/Screenshot_20221204_230204_com.example.flutter_tv_edit_25110143312313.jpg) |
 | [Source](https://github.com/IsD4n73/Flutter-Snippets/blob/main/Source/barra_ricerca.dart) |
+
+
+| Custom Dialog | 
+| ------------- |
+| ![Img]() |
+| [Source](https://github.com/IsD4n73/Flutter-Snippets/blob/main/Source/custom_dialog.dart) |
 
 
 ## Logic Snippets 
