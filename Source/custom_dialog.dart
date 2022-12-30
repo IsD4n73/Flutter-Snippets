@@ -1,13 +1,11 @@
-
-import 'dart:ui';
-import 'package:flutter/cupertino.dart';
+// ignore_for_file: library_private_types_in_public_api
 import 'package:flutter/material.dart';
 
 class CustomDialogBox extends StatefulWidget {
   final String title, descriptions, text;
   final Image img;
 
-  const CustomDialogBox({Key key, this.title, this.descriptions, this.text, this.img}) : super(key: key);
+  const CustomDialogBox({super.key, this.title="", this.descriptions="", this.text="Ok", required this.img});
 
   @override
   _CustomDialogBoxState createState() => _CustomDialogBoxState();
@@ -29,15 +27,15 @@ class _CustomDialogBoxState extends State<CustomDialogBox> {
     return Stack(
       children: <Widget>[
         Container(
-          padding: EdgeInsets.only(left: Constants.padding,top: 45
+          padding: const EdgeInsets.only(left: 20,top: 45
               + 20, right: 20, bottom: 20
           ),
-          margin: EdgeInsets.only(top: 45),
+          margin: const EdgeInsets.only(top: 45),
           decoration: BoxDecoration(
             shape: BoxShape.rectangle,
             color: Colors.white,
             borderRadius: BorderRadius.circular(20),
-            boxShadow: [
+            boxShadow: const [
               BoxShadow(color: Colors.black,offset: Offset(0,10),
               blurRadius: 10
               ),
@@ -46,29 +44,29 @@ class _CustomDialogBoxState extends State<CustomDialogBox> {
           child: Column(
             mainAxisSize: MainAxisSize.min,
             children: <Widget>[
-              Text(widget.title,style: TextStyle(fontSize: 22,fontWeight: FontWeight.w600),),
-              SizedBox(height: 15,),
-              Text(widget.descriptions,style: TextStyle(fontSize: 14),textAlign: TextAlign.center,),
-              SizedBox(height: 22,),
+              Text(widget.title,style: const TextStyle(fontSize: 22,fontWeight: FontWeight.w600),),
+              const SizedBox(height: 15,),
+              Text(widget.descriptions,style: const TextStyle(fontSize: 14),textAlign: TextAlign.center,),
+              const SizedBox(height: 22,),
               Align(
                 alignment: Alignment.bottomRight,
-                child: FlatButton(
+                child: TextButton(
                     onPressed: (){
                       Navigator.of(context).pop();
                     },
-                    child: Text(widget.text,style: TextStyle(fontSize: 18),)),
+                    child: Text(widget.text,style: const TextStyle(fontSize: 18),)),
               ),
             ],
           ),
         ),
         Positioned(
-          left: Constants.padding,
-            right: Constants.padding,
+          left: 20,
+            right: 20,
             child: CircleAvatar(
               backgroundColor: Colors.transparent,
-              radius: Constants.avatarRadius,
+              radius: 45,
               child: ClipRRect(
-                borderRadius: BorderRadius.all(Radius.circular(45)),
+                borderRadius: const BorderRadius.all(Radius.circular(45)),
                   child: widget.img
               ),
             ),
