@@ -38,7 +38,25 @@ Flutter snippets and component
 | ------------- |
 | ![Img](https://raw.githubusercontent.com/IsD4n73/Flutter-Snippets/main/Screen/1_4gAoiYe6ppI-TVEU2dZ30A_edit_32626946337208.jpg) |
 | [Source](https://github.com/IsD4n73/Flutter-Snippets/blob/main/Source/custom_dialog.dart) |
+| [Usage](https://github.com/IsD4n73/Flutter-Snippets/edit/main/README.md#custom-dialog) |
 
 
 ## Logic Snippets 
  - [Check Codice Fiscale](https://github.com/IsD4n73/Flutter-Snippets/blob/main/Logic/check_cf.dart)
+ 
+
+## Usage
+
+### Custom Dialog
+```dart
+showDialog(
+ context: context,
+ builder: (BuildContext context) {
+  return CustomDialogBox(
+   img: Image.asset("assets/logo.png"),
+   title: "Title Here",
+   text: "Ok", //button text
+   descriptions: "Your description here",
+  );
+});
+```
