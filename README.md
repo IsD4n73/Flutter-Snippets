@@ -43,6 +43,10 @@ Flutter snippets and component
 
 ## Logic Snippets 
  - [Check Codice Fiscale](https://github.com/IsD4n73/Flutter-Snippets/blob/main/Logic/check_cf.dart)
+ - [Index To Letter](https://raw.githubusercontent.com/IsD4n73/Flutter-Snippets/main/Logic/number_to_letter.dart) 
+
+## Script
+- [Clean Architecture](https://raw.githubusercontent.com/IsD4n73/Flutter-Snippets/main/Script/clean_creator.dart)
  
 
 ## Usage
